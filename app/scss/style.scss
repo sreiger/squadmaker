@@ -1,0 +1,85 @@
+$font-stack:    Helvetica, sans-serif;
+
+$table-border-color: #b8b8b8;
+
+$table-margin-bottom: 1.5294em;
+$table-border-width: .0714em;
+$table-border-style: solid;
+$table-cell-padding: .4705em;
+$table-cell-text-align: left;
+$table-cell-border-top: $table-border-width $table-border-style $table-border-color;
+$table-header-font-weight: bold;
+
+
+body {
+    font: 100% $font-stack;
+}
+
+.table { 
+    margin-bottom: $table-margin-bottom;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.table th,
+.table td {
+    padding: $table-cell-padding;
+    text-align: $table-cell-text-align;
+    border-top: $table-cell-border-top;
+}
+
+.table th {
+    font-weight: $table-header-font-weight;
+    vertical-align: bottom;
+}
+
+.table td {
+    vertical-align: top;
+}
+
+.table thead:first-child tr th,
+.table thead:first-child tr td {
+    border-top: 0;
+}
+
+.squad-input {
+    border: 2px solid grey;
+    background: none;
+    position: relative;
+    top: 0;
+    left: 41%;
+    width: 8.5%;
+    z-index: 1;
+    padding: 8px 12px;
+    
+}
+
+.squad-button {
+    left: 50%;
+    top: 0;
+    position: relative;
+    padding: 5px 8px;
+}
+
+
+h1 {
+     font: $font-stack;
+     text-align: center;
+}
+
+.rstBtn {
+    float: right;
+    width: 8.5em;
+    height: 2em;
+}
+
+.infoSec {
+    text-align: center;
+}
+
+.lblWaitList {
+    font-weight: bold;
+    text-align: center;
+
+}

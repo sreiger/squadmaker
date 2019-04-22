@@ -1,0 +1,15 @@
+# ignore all files starting with . or ~
+.*
+~*
+
+
+# Don't track contents of these folders
+#node_modules/
+
+# Compiled source #
+###################
+*.vscode
+#*.json
+
+!.gitignore
+
