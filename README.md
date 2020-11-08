@@ -3,7 +3,7 @@ Squad Maker Challenge
 
 Technology used: Backend -> Json-server (Serves static json files) Frontend -> Mithril.js (Single page app)
 
-Mithril positins itself as a compact but powerful modern client-side
+Mithril positions itself as a compact but powerful modern client-side
 JavaScript framework. The API is designed to give developers enterprise power in a single page application, while keeping a very
 small footprint. 
 
